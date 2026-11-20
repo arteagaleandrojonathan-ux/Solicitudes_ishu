@@ -1,0 +1,159 @@
+/* ---------- Página pública y encabezados ---------- */
+
+.pagina-catalogo-clientes {
+    margin: 0;
+    font: 15px/1.5 system-ui, sans-serif;
+    background: #f6f5f2;
+    color: #211b17;
+}
+
+.solicitudes-catalogo {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.catalogo-clientes {
+    padding: 18px 16px 72px;
+}
+
+.marca-catalogo-clientes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.marca-catalogo-clientes {
+    background: #151310;
+    color: #fff;
+    padding: 14px 16px;
+    border-bottom: 3px solid #f7931e;
+    border-radius: 10px;
+}
+
+.marca-catalogo-clientes h1, .marca-catalogo-clientes p {
+    margin: 0;
+}
+
+.marca-catalogo-clientes h1 {
+    font-size: 23px;
+}
+
+.marca-catalogo-clientes p {
+    color: #e0d2c3;
+}
+
+/* ---------- Buscador, filtros y campos del formulario ---------- */
+
+.filtros-catalogo-clientes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.filtros-catalogo-clientes label {
+    flex: 1 1 160px;
+}
+
+.catalogo-clientes label {
+    display: block;
+    font-weight: 600;
+}
+
+.catalogo-clientes input, .catalogo-clientes select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 4px;
+    min-height: 38px;
+    padding: 6px 8px;
+    border: 1px solid #d9d0c6;
+    border-radius: 6px;
+    background: #fff;
+    font: inherit;
+}
+
+/* ---------- Fichas de productos y tarjetas de solicitudes ---------- */
+
+.grid-catalogo-clientes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(140px, 100%), 1fr));
+    gap: 10px;
+}
+
+.tarjeta-solicitud {
+    min-width: 0;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #e6dcd1;
+    border-radius: 9px;
+    background: #fff;
+}
+
+.tarjeta-solicitud h2, .tarjeta-solicitud h3 {
+    margin: 0 0 6px;
+}
+
+.tarjeta-solicitud p {
+    margin: 0 0 8px;
+    color: #63574b;
+}
+
+.tarjeta-solicitud ul {
+    padding-inline-start: 22px;
+    margin: 8px 0;
+}
+
+.ficha-catalogo-cliente {
+    margin: 0;
+}
+
+.ficha-catalogo-cliente img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.ficha-catalogo-cliente h2 {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+}
+
+/* ---------- Carrito y botones ---------- */
+
+#carritoCliente {
+    margin-top: 16px;
+}
+
+.accion-catalogo {
+    display: inline-block;
+    margin: 3px 0;
+    min-height: 36px;
+    padding: 8px 12px;
+    border: 1px solid #e4a35b;
+    border-radius: 6px;
+    background: #ffe0ba;
+    color: #4e2900;
+    font: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ir-carrito-cliente {
+    position: sticky;
+    bottom: 12px;
+    float: right;
+    box-shadow: 0 3px 14px #0002;
+}
+
+/* ---------- Mensajes del catálogo ---------- */
+
+.error-catalogo {
+    color: #992823;
+}
+
